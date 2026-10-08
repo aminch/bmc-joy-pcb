@@ -3,7 +3,6 @@
 The BMC Joy PCB is a compact joystick adapter board that brings classic DB9 joystick ports (Atari / Commodore style) to modern Raspberry Pi based retro builds. It is compatible with:
 
 * [BMC64](https://accentual.com/bmc64/) users who want authentic 1 or 2 joystick ports on a minimal build
-* [BMX](https://github.com/kdre/bmx) Bare metal C64 emulator for Pi 400 / Pi 500 / Pi 500+ (BMC64 for Pi4 and greater)
 * [8-bit PC Pi Compile](https://github.com/aminch/8-bit-pc-pi-compile) is built to run VICE on top of Pi OS Lite
 
 All project assets (BOM, Gerbers, schematic, images) are included in this repository for DIY fabrication and personal experimentation.
@@ -61,9 +60,16 @@ The assebled adapter should look like below:
 
 This adapter has been designed to be used on a Pi 400, Pi 500 or Pi 500+ with the project: [8-bit PC Pi Compile](https://github.com/aminch/8-bit-pc-pi-compile). It uses the same GPIO configuration as [GPIO Config 1](https://github.com/randyrossi/bmc64?tab=readme-ov-file#gpio-config-1--menu-nav-buttons-and-joysticks) in the BMC64 project so that the adapter is directly compatible with both.
 
-### BMC64 / BMX
+### BMC64
 
-When using [BMC64](https://accentual.com/bmc64/) or [BMX](https://github.com/kdre/bmx), enable [GPIO Config 1](https://github.com/randyrossi/bmc64?tab=readme-ov-file#gpio-config-1--menu-nav-buttons-and-joysticks), and you're good to go!
+When using [BMC64](https://accentual.com/bmc64/) enable [GPIO Config 1](https://github.com/randyrossi/bmc64?tab=readme-ov-file#gpio-config-1--menu-nav-buttons-and-joysticks), and you're good to go!
+
+#### BMC64 Ports
+
+Should also work on BMC64 ports for Pi4 and up too:
+
+* [BMC64-NG](https://github.com/lroby74/BMC64-NG)
+* [BMX](https://baremetalx.de/)
 
 ### VICE on PiOS Lite (Pi 400 / Pi 500 / Pi 500+)
 
